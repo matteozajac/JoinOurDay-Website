@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Day</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <script src="https://cdn.jsdelivr.net/npm/vara@1.4.0/lib/vara.min.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFE4E1; /* Light pink background */
+            font-family: 'Cormorant Garamond', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        #vara-container {
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: #FF69B4; /* Hot pink */
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="vara-container"></div>
+        <div class="subtitle" id="subtitle">Coming Soon</div>
+    </div>
+    <script>
+        var vara = new Vara(
+            "#vara-container",
+            "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Satisfy/SatisfySL.json",
+            [
+                {
+                    text: "Join Our Day",
+                    fontSize: 64,
+                    strokeWidth: 2,
+                    color: "#FF69B4", // Hot pink
+                    duration: 3000
+                }
+            ],
+            {
+                strokeWidth: 2,
+                color: "#FF69B4",
+                fontSize: 64,
+                textAlign: "center"
+            }
+        );
+        vara.ready(function() {
+            setTimeout(function() {
+                document.getElementById('subtitle').style.opacity = '1';
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
