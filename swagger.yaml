@@ -1,0 +1,596 @@
+openapi: 3.0.0
+info:
+  title: JoinOurDay API
+  description: API for retrieving wedding information, guests, events, and traditions
+  version: 1.0.0
+servers:
+  - url: https://api.joinourday.app/v1
+    description: Main production server
+
+paths:
+  # Wedding Information Endpoints
+  /weddings/{weddingId}:
+    get:
+      summary: Get wedding details
+      operationId: wedding
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Wedding information retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Wedding'
+        '404':
+          description: Wedding not found
+
+  # Guest Management Endpoints
+  /weddings/{weddingId}/guests:
+    get:
+      summary: List all guests
+      operationId: weddingGuests
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of guests retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Guest'
+
+  /weddings/{weddingId}/guests/{guestId}:
+    get:
+      summary: Get guest details
+      operationId: weddingGuest
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: guestId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Guest details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Guest'
+        '404':
+          description: Guest not found
+
+  # Event Management Endpoints
+  /weddings/{weddingId}/events:
+    get:
+      summary: List all events
+      operationId: weddingEvents
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of events retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Event'
+
+  /weddings/{weddingId}/events/{eventId}:
+    get:
+      summary: Get event details
+      operationId: weddingEvent
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: eventId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Event details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Event'
+        '404':
+          description: Event not found
+
+  # Food/Menu Endpoints
+  /weddings/{weddingId}/menu:
+    get:
+      summary: Get complete menu
+      operationId: weddingMenu
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Menu retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Food'
+
+  # QR Card Endpoints
+  /weddings/{weddingId}/qrcards:
+    get:
+      summary: List all QR cards
+      operationId: weddingQRCards
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of QR cards retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/QRCard'
+
+  # Notification Endpoints
+  /weddings/{weddingId}/notifications:
+    get:
+      summary: List all notifications
+      operationId: weddingNotifications
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of notifications retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WeddingNotification'
+
+  # Wedding Traditions Endpoints
+  /weddings/{weddingId}/traditions:
+    get:
+      summary: List all wedding traditions
+      operationId: weddingTraditions
+      parameters:
+        - name: weddingId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of traditions retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/WeddingTradition'
+                  
+components:
+  schemas:
+    AdditionalInfo:
+      type: object
+      required:
+        - id
+        - type
+        - title
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+          enum:
+            - culturalNote
+            - transportation
+            - dresscode
+            - dietary
+            - reminder
+            - contact
+            - custom
+        title:
+          type: string
+        subtitle:
+          type: string
+        url:
+          type: string
+          format: uri
+        image:
+          type: string
+          format: uri
+        icon:
+          type: string
+
+    Allergen:
+      type: string
+      enum:
+        - MI  # milk
+        - EG  # eggs
+        - PN  # peanuts
+        - TN  # tree nuts
+        - FI  # fish
+        - SF  # shellfish
+        - SY  # soy
+        - WH  # wheat
+        - SE  # sesame
+        - CE  # celery
+        - MU  # mustard
+        - LU  # lupin
+        - MO  # mollusks
+        - SU  # sulfites
+
+    Event:
+      type: object
+      required:
+        - id
+        - name
+        - eventType
+        - startDate
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        eventType:
+          type: string
+          enum:
+            - rehearsalDinner
+            - ceremony
+            - reception
+            - afterParty
+            - brunch
+        startDate:
+          type: string
+          format: date-time
+        endDate:
+          type: string
+          format: date-time
+        description:
+          type: string
+        place:
+          $ref: '#/components/schemas/Location'
+        imageUrls:
+          type: array
+          items:
+            type: string
+            format: uri
+        icon:
+          type: string
+        additionalInfo:
+          type: array
+          items:
+            $ref: '#/components/schemas/AdditionalInfo'
+
+    Food:
+      type: object
+      required:
+        - id
+        - name
+        - type
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        images:
+          type: array
+          items:
+            type: string
+            format: uri
+        descriptions:
+          type: object
+          additionalProperties:
+            type: string
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/FoodCategory'
+        type:
+          $ref: '#/components/schemas/FoodType'
+        allergens:
+          type: array
+          items:
+            $ref: '#/components/schemas/Allergen'
+
+    FoodCategory:
+      type: string
+      enum:
+        - adults
+        - kids
+        - vegetarian
+        - vegan
+        - glutenFree
+        - dairyFree
+        - pescatarian
+        - kosher
+        - halal
+        - lowCarb
+        - keto
+        - paleo
+        - allergenFree
+        - diabeticFriendly
+        - organic
+        - localProduce
+        - rawFood
+        - sugarFree
+        - lowSodium
+        - highProtein
+
+    FoodType:
+      type: string
+      enum:
+        - PC  # preDinnerCanapes
+        - AP  # appetisers
+        - SO  # soups
+        - MC  # mainCourse
+        - DE  # dessert
+        - LN  # lateNightSnacks
+
+    Guest:
+      type: object
+      required:
+        - id
+        - email
+        - firstName
+        - lastName
+        - invitationCode
+        - menuType
+      properties:
+        id:
+          type: string
+        email:
+          type: string
+          format: email
+        firstName:
+          type: string
+        lastName:
+          type: string
+        invitationCode:
+          type: string
+        menuType:
+          type: string
+        photoPath:
+          type: string
+        isMainContact:
+          type: boolean
+        language:
+          type: string
+        side:
+          type: string
+        table:
+          type: string
+        shortBio:
+          type: string
+        tags:
+          type: array
+          items:
+            $ref: '#/components/schemas/GuestTag'
+        isPrivate:
+          type: boolean
+        socialMediaLinks:
+          $ref: '#/components/schemas/SocialMediaLinks'
+        discoveredQrCards:
+          type: array
+          items:
+            type: integer
+
+    GuestTag:
+      type: string
+      enum:
+        - DP  # dancePartner
+        - DB  # drinkingBuddy
+        - EC  # englishChat
+        - GM  # game
+        - MS  # makeSuprise
+        - MM  # mixAndMingle
+        - PB  # photoBomb
+
+    Location:
+      type: object
+      required:
+        - name
+        - address
+        - dateTime
+      properties:
+        name:
+          type: string
+        address:
+          type: string
+        dateTime:
+          type: string
+          format: date-time
+        photoURL:
+          type: string
+          format: uri
+        coordinate:
+          type: object
+          properties:
+            latitude:
+              type: number
+              format: double
+            longitude:
+              type: number
+              format: double
+        additionalInfo:
+          type: array
+          items:
+            type: string
+        parkingInfo:
+          type: string
+        contacts:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              role:
+                type: string
+              phone:
+                type: string
+              imageURL:
+                type: string
+                format: uri
+              countryCode:
+                type: string
+
+    QRCard:
+      type: object
+      required:
+        - id
+        - number
+        - translations
+      properties:
+        id:
+          type: string
+        number:
+          type: integer
+        photoURL:
+          type: string
+          format: uri
+        translations:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              title:
+                type: string
+              description:
+                type: string
+            required:
+              - title
+              - description
+
+    SocialMediaLinks:
+      type: object
+      properties:
+        facebook:
+          type: string
+        instagram:
+          type: string
+        twitter:
+          type: string
+
+    Wedding:
+      type: object
+      required:
+        - newlywedsNames
+        - weddingDateTime
+        - timeZone
+        - churchInfo
+        - weddingVenue
+      properties:
+        newlywedsNames:
+          type: string
+        weddingDateTime:
+          type: string
+          format: date-time
+        timeZone:
+          type: string
+        churchInfo:
+          $ref: '#/components/schemas/Location'
+        weddingVenue:
+          $ref: '#/components/schemas/Location'
+
+    WeddingInfo:
+      type: object
+      required:
+        - title
+        - date
+        - subtitle
+        - weddingCode
+      properties:
+        title:
+          type: string
+        date:
+          type: string
+          format: date-time
+        subtitle:
+          type: string
+        weddingCode:
+          type: string
+
+    WeddingNotification:
+      type: object
+      required:
+        - id
+        - title
+        - createdAt
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        subtitle:
+          type: string
+        deepLink:
+          type: string
+        imageUrl:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+
+    WeddingTradition:
+      type: object
+      required:
+        - country
+        - title
+        - shortDescription
+        - photoURL
+        - fullDescription
+      properties:
+        country:
+          type: object
+          properties:
+            code:
+              type: string
+            name:
+              type: string
+        title:
+          type: string
+        shortDescription:
+          type: string
+        photoURL:
+          type: string
+          format: uri
+        fullDescription:
+          type: string
