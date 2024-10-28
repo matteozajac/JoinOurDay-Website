@@ -257,6 +257,25 @@ components:
         - MO  # mollusks
         - SU  # sulfites
 
+    Contact:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        phone:
+          type: string
+        imageURL:
+          type: string
+          format: uri
+        countryCode:
+          type: string
+        languages:
+          type: array
+          items:
+            type: string
+          description: List of languages spoken by the contact
     Event:
       type: object
       required:
@@ -391,8 +410,13 @@ components:
           type: string
         isMainContact:
           type: boolean
-        language:
+        countryCode:
           type: string
+        languages:
+          type: array
+          items:
+            type: string
+          description: List of languages spoken by the contact
         side:
           type: string
         table:
@@ -458,19 +482,7 @@ components:
         contacts:
           type: array
           items:
-            type: object
-            properties:
-              name:
-                type: string
-              role:
-                type: string
-              phone:
-                type: string
-              imageURL:
-                type: string
-                format: uri
-              countryCode:
-                type: string
+            $ref: '#/components/schemas/Contact'
 
     QRCard:
       type: object
