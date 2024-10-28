@@ -262,6 +262,8 @@ components:
       properties:
         name:
           type: string
+        role:
+          type: string
         description:
           type: string
         phone:
