@@ -1,0 +1,182 @@
+[
+  {
+    "translations": {
+      "en": {
+        "title": "How we met?",
+        "description": "We met at a grand masquerade ball, instantly drawn to each other despite not knowing who the other was. Our love blossomed quickly, even after we discovered our families were bitter rivals.\n"
+      },
+      "pl": {
+        "title": "Jak się poznaliśmy?",
+        "description": "Poznaliśmy się na wielkim balu maskowym i od razu przyciągnęliśmy się do siebie, mimo że nie wiedzieliśmy, kim jest ten drugi. Nasza miłość rozkwitła szybko, nawet gdy odkryliśmy, że nasze rodziny są zaciekłymi rywalami.\n"
+      },
+      "es": {
+        "title": "¿Cómo nos conocimos?",
+        "description": "Nos conocimos en un gran baile de máscaras y nos sentimos instantáneamente atraídos el uno por el otro a pesar de no saber quién era el otro. Nuestro amor floreció rápidamente, incluso después de que descubrimos que nuestras familias eran rivales acérrimos.\n"
+      }
+    },
+    "id": 1,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602419"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "First Encounter",
+        "description": "Romeo and Juliet meet at the Capulet ball and instantly fall in love"
+      },
+      "pl": {
+        "title": "Pierwsze spotkanie",
+        "description": "Romeo i Julia spotykają się na balu Capuletów i od razu zakochują się w sobie"
+      },
+      "es": {
+        "title": "Primer encuentro",
+        "description": "Romeo y Julieta se conocen en el baile de los Capuleto y se enamoran al instante"
+      }
+    },
+    "id": 2,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602420"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Secret Marriage",
+        "description": "The young lovers marry in secret with help from Friar Laurence"
+      },
+      "pl": {
+        "title": "Sekretne małżeństwo",
+        "description": "Młodzi kochankowie pobierają się potajemnie z pomocą brata Laurentego"
+      },
+      "es": {
+        "title": "matrimonio secreto",
+        "description": "Los jóvenes amantes se casan en secreto con la ayuda de Fray Lorenzo."
+      }
+    },
+    "id": 3,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602421"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Tybalt's Death",
+        "description": "Romeo kills Juliet's cousin Tybalt and is banished from Verona"
+      },
+      "pl": {
+        "title": "Śmierć Tybalta",
+        "description": "Romeo zabija kuzyna Julii Tybalta i zostaje wygnany z Werony"
+      },
+      "es": {
+        "title": "La muerte de Tebaldo",
+        "description": "Romeo mata al primo de Julieta, Teobaldo, y es desterrado de Verona."
+      }
+    },
+    "id": 4,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602422"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Juliet's Fake Death",
+        "description": "Juliet takes a potion to fake her death and avoid marriage to Paris"
+      },
+      "pl": {
+        "title": "Fałszywa śmierć Julii",
+        "description": "Julia bierze eliksir, aby sfingować swoją śmierć i uniknąć małżeństwa z Paryżem"
+      },
+      "es": {
+        "title": "La falsa muerte de Julieta",
+        "description": "Julieta toma una poción para fingir su muerte y evitar casarse con Paris"
+      }
+    },
+    "id": 5,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602423"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Romeo's Exile",
+        "description": "Romeo struggles with his banishment in Mantua"
+      },
+      "pl": {
+        "title": "Wygnanie Romea",
+        "description": "Romeo zmaga się z wygnaniem w Mantui"
+      },
+      "es": {
+        "title": "El exilio de Romeo",
+        "description": "Romeo lucha con su destierro en Mantua"
+      }
+    },
+    "id": 6,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602424"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Miscommunication",
+        "description": "The message about Juliet's fake death fails to reach Romeo"
+      },
+      "pl": {
+        "title": "Nieporozumienie",
+        "description": "Wiadomość o sfingowanej śmierci Julii nie dociera do Romea"
+      },
+      "es": {
+        "title": "Falta de comunicación",
+        "description": "El mensaje sobre la falsa muerte de Julieta no llega a Romeo"
+      }
+    },
+    "id": 7,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602425"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Romeo's Return",
+        "description": "Romeo returns to Verona believing Juliet is dead"
+      },
+      "pl": {
+        "title": "Powrót Romea",
+        "description": "Romeo wraca do Werony wierząc, że Julia nie żyje"
+      },
+      "es": {
+        "title": "El regreso de Romeo",
+        "description": "Romeo regresa a Verona creyendo que Julieta está muerta"
+      }
+    },
+    "id": 8,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602426"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Tragic Ending",
+        "description": "Both lovers die by suicide due to a series of misunderstandings"
+      },
+      "pl": {
+        "title": "Tragiczny koniec",
+        "description": "Obydwoje kochankowie popełniają samobójstwo w wyniku szeregu nieporozumień"
+      },
+      "es": {
+        "title": "Final trágico",
+        "description": "Ambos amantes se suicidan debido a una serie de malentendidos."
+      }
+    },
+    "id": 9,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602427"
+  },
+  {
+    "translations": {
+      "en": {
+        "title": "Family Reconciliation",
+        "description": "The Montagues and Capulets end their feud after the tragedy"
+      },
+      "pl": {
+        "title": "Pojednanie rodzinne",
+        "description": "Po tragedii Montekowie i Kapuleci kończą spór"
+      },
+      "es": {
+        "title": "Conciliación Familiar",
+        "description": "Los Montesco y los Capuleto ponen fin a su enemistad tras la tragedia"
+      }
+    },
+    "id": 10,
+    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602428"
+  }
+]

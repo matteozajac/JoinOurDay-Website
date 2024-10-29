@@ -1,0 +1,40 @@
+{
+  "newlywedsNames": "Paulina & Alejandro",
+  "weddingDateTime": "2025-05-24T17:00:00+02:00",
+  "timeZone": "Europe/Madrid",
+  "churchInfo": {
+    "name": "Iglesia de la Santa Faz",
+    "address": "Pl. Luis Foglietti, 7, 03559 Santa Faz, Alicante, Spain",
+    "dateTime": "2025-05-24T17:00:00+02:00",
+    "photoURL": "https://santafazalicante.com/wp-content/uploads/1920-800-1.jpg",
+    "coordinate": {
+      "latitude": 38.38983985612187,
+      "longitude": -0.4427622693129632
+    },
+    "additionalInfo": [
+      "Please plan to arrive early to ensure seating.",
+      "Kindly refrain from using your phone during the service.",
+      "The service will be conducted in both Spanish and Polish.",
+      "Dry flower petals will be provided for after the service. Please note that rice is not allowed.",
+      "Transport to the wedding venue will be organized after the ceremony."
+    ],
+    "parkingInfo": "",
+    "contacts": []
+  },
+  "weddingVenue": {
+    "name": "Finca Casa Luna",
+    "address": "Calle del Te, 5, 03559 Alicante, Spain",
+    "dateTime": "2025-05-24T18:30:00+02:00",
+    "photoURL": "https://cdn0.bodas.net/vendor/00440/3_2/960/jpeg/whatsapp-image-2021-07-20-at-17-26-57_1_100440-164182557633958.jpeg",
+    "coordinate": {
+      "latitude": 38.38468875355265,
+      "longitude": -0.4551215079388897
+    },
+    "additionalInfo": [
+      "There is a small parking lot right next to the wedding venue that can accommodate a few cars. However, you can easily park nearby within a 5-minute walk.",
+      "For any questions, please contact the best man or maid of honour."
+    ],
+    "parkingInfo": "Small parking lot available, additional parking within 5-minute walk.",
+    "contacts": []
+  }
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "guests-arrive",
+    "name": "Guests Arrive at the Church",
+    "eventType": "ceremony",
+    "startDate": "2025-05-24T16:30:00+02:00",
+    "endDate": "2025-05-24T17:00:00+02:00",
+    "description": "Please plan to arrive early to ensure seating.",
+    "place": "Iglesia de la Santa Faz",
+    "imageUrls": [],
+    "icon": "person.3.fill",
+    "additionalInfo": [
+      {
+        "id": "early-arrival",
+        "type": "reminder",
+        "title": "Early Arrival",
+        "subtitle": "Please plan to arrive early to ensure seating.",
+        "icon": "bell.fill"
+      },
+      {
+        "id": "bilingual-service",
+        "type": "culturalNote",
+        "title": "Bilingual Service",
+        "subtitle": "The service will be conducted in both Spanish and Polish.",
+        "icon": "globe"
+      },
+      {
+        "id": "phone-policy",
+        "type": "reminder",
+        "title": "Phone Policy",
+        "subtitle": "Kindly refrain from using your phone during the ceremony.",
+        "icon": "bell.fill"
+      }
+    ]
+  },
+  {
+    "id": "ceremony",
+    "name": "Church Ceremony",
+    "eventType": "ceremony",
+    "startDate": "2025-05-24T17:00:00+02:00",
+    "endDate": "2025-05-24T18:00:00+02:00",
+    "description": "Traditional Catholic wedding with readings, vows, and blessings.",
+    "place": "Iglesia de la Santa Faz",
+    "imageUrls": [],
+    "icon": "heart.circle.fill",
+    "additionalInfo": [
+      {
+        "id": "traditional-ceremony",
+        "type": "culturalNote",
+        "title": "Traditional Ceremony",
+        "subtitle": "Traditional Catholic wedding with readings, vows, and blessings.",
+        "icon": "globe"
+      },
+      {
+        "id": "after-ceremony",
+        "type": "reminder",
+        "title": "After Ceremony",
+        "subtitle": "Dried flower petals will be provided for a festive exit. Note: Rice is not allowed.",
+        "icon": "bell.fill"
+      }
+    ]
+  },
+  {
+    "id": "group-photos",
+    "name": "Group Photo Session",
+    "eventType": "ceremony",
+    "startDate": "2025-05-24T18:00:00+02:00",
+    "endDate": "2025-05-24T18:15:00+02:00",
+    "description": "Quick group photo with all guests after the ceremony.",
+    "place": "Iglesia de la Santa Faz",
+    "imageUrls": [],
+    "icon": "camera.fill",
+    "additionalInfo": []
+  },
+  {
+    "id": "transport",
+    "name": "Transport to Reception",
+    "eventType": "reception",
+    "startDate": "2025-05-24T18:15:00+02:00",
+    "endDate": "2025-05-24T18:30:00+02:00",
+    "description": "Organized transport will take guests from the church to the reception venue.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "bus.fill",
+    "additionalInfo": [
+      {
+        "id": "shuttle-service",
+        "type": "transportation",
+        "title": "Shuttle Service",
+        "subtitle": "Organized transport will take guests from the church to Finca Casa Luna.",
+        "icon": "car.fill"
+      }
+    ]
+  },
+  {
+    "id": "cocktail-hour",
+    "name": "Cocktail Hour",
+    "eventType": "reception",
+    "startDate": "2025-05-24T18:30:00+02:00",
+    "endDate": "2025-05-24T19:00:00+02:00",
+    "description": "Enjoy drinks and tapas while mingling.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "wineglass.fill",
+    "additionalInfo": [
+      {
+        "id": "spanish-tapas",
+        "type": "culturalNote",
+        "title": "Spanish Tapas",
+        "subtitle": "The cocktail hour is a time to socialize before the seated dinner. Tapas include regional specialties like Iberian ham and seafood.",
+        "icon": "globe"
+      }
+    ]
+  },
+  {
+    "id": "couple-photos",
+    "name": "Couple's Photo Session",
+    "eventType": "reception",
+    "startDate": "2025-05-24T19:00:00+02:00",
+    "endDate": "2025-05-24T20:00:00+02:00",
+    "description": "Join in for memorable group shots while enjoying the cocktail hour.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "camera.fill",
+    "additionalInfo": [
+      {
+        "id": "photo-opportunity",
+        "type": "reminder",
+        "title": "Photo Opportunity",
+        "subtitle": "Feel free to join in for memorable group shots while enjoying the cocktail hour.",
+        "icon": "bell.fill"
+      }
+    ]
+  },
+  {
+    "id": "dinner",
+    "name": "Seated Dinner & Toasts",
+    "eventType": "reception",
+    "startDate": "2025-05-24T20:00:00+02:00",
+    "endDate": "2025-05-24T22:15:00+02:00",
+    "description": "Multi-course dinner featuring local Spanish cuisine.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "fork.knife",
+    "additionalInfo": [
+      {
+        "id": "spanish-dining",
+        "type": "culturalNote",
+        "title": "Spanish Dining",
+        "subtitle": "In Spain, the dinner is a long affair, so take your time and savor each course. Guests will be served wine and other beverages throughout the meal.",
+        "icon": "globe"
+      },
+      {
+        "id": "menu-options",
+        "type": "dietary",
+        "title": "Menu Options",
+        "subtitle": "Featuring local Spanish cuisine with fish, meat, and vegetarian options, followed by wedding cake.",
+        "icon": "fork.knife"
+      }
+    ]
+  },
+  {
+    "id": "first-dance",
+    "name": "First Dance & Dance Floor",
+    "eventType": "reception",
+    "startDate": "2025-05-24T22:15:00+02:00",
+    "endDate": "2025-05-25T00:00:00+02:00",
+    "description": "The newlyweds' first dance followed by open dance floor.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "music.note",
+    "additionalInfo": []
+  },
+  {
+    "id": "bouquet-games",
+    "name": "Bouquet Toss & Games",
+    "eventType": "reception",
+    "startDate": "2025-05-25T00:00:00+02:00",
+    "endDate": "2025-05-25T00:30:00+02:00",
+    "description": "Traditional bouquet toss followed by interactive games with guests.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "gift.fill",
+    "additionalInfo": []
+  },
+  {
+    "id": "late-night-snacks",
+    "name": "Late Night Snacks",
+    "eventType": "reception",
+    "startDate": "2025-05-25T01:00:00+02:00",
+    "endDate": "2025-05-25T02:00:00+02:00",
+    "description": "Hot small bites and pizza will be served.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "fork.knife.circle.fill",
+    "additionalInfo": []
+  },
+  {
+    "id": "end",
+    "name": "End of Celebration",
+    "eventType": "reception",
+    "startDate": "2025-05-25T03:00:00+02:00",
+    "description": "The celebration will finish at 3:00 AM.",
+    "place": "Finca Casa Luna",
+    "imageUrls": [],
+    "icon": "moon.stars.fill",
+    "additionalInfo": []
+  }
+]

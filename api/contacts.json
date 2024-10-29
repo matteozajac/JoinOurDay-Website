@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Paulina",
+    "role": "Bride",
+    "phone": "+34123456789",
+    "moreInfo": "General inquiries before the wedding, logistical questions, and RSVP clarifications. Note: Please contact Paulina only for essential matters, especially on the wedding day.",
+    "imageURL": null,
+    "countryCode": "ES",
+    "languages": ["es", "en"]
+  },
+  {
+    "name": "Alejandro",
+    "role": "Groom",
+    "phone": "+34987654321",
+    "moreInfo": "General inquiries before the wedding and any last-minute changes. Note: Please reach out to Alejandro only for urgent matters on the wedding day.",
+    "imageURL": null,
+    "countryCode": "ES",
+    "languages": ["es", "en"]
+  },
+  {
+    "name": "Miguel",
+    "role": "Best Man",
+    "phone": "+34555555555",
+    "moreInfo": "Transport arrangements, directions, and any questions about parking.",
+    "imageURL": null,
+    "countryCode": "ES",
+    "languages": ["es", "en"]
+  },
+  {
+    "name": "Joanna",
+    "role": "Maid of Honour",
+    "phone": "+48696696696",
+    "moreInfo": "Guest seating, ceremony etiquette, and handling any unexpected guest needs.",
+    "imageURL": null,
+    "countryCode": "PL",
+    "languages": ["pl", "en"]
+  },
+  {
+    "name": "Roksana",
+    "role": "Bridesmaid- Language Support",
+    "phone": "+34122333444",
+    "moreInfo": "Assisting guests with language barriers (Polish, Spanish, English). Roxana can help translate and answer any questions in your preferred language.",
+    "imageURL": null,
+    "countryCode": "ES",
+    "languages": ["pl", "es", "en"]
+  }
+]

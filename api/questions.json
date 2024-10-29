@@ -1,0 +1,52 @@
+[
+    {
+        "id": "venue-location",
+        "question": "Is the wedding indoors or outdoors?",
+        "answer": "The ceremony will be held indoors in a beautiful church, while the reception will be outside under the stars. Don't worry; we'll make sure there's a spot of shade – or sun – for everyone!"
+    },
+    {
+        "id": "dress-code",
+        "question": "Is there a dress code for the wedding?",
+        "answer": "No strict dress code! Just avoid white and wear something you feel fabulous in. Expect lovely weather, so feel free to go with Hawaiian shirts, linen suits, or that sundress you've been waiting to wear. Fancy hats encouraged, especially for dramatic effect!"
+    },
+    {
+        "id": "ceremony-reception-transport",
+        "question": "Is transportation provided between the ceremony and reception venues?",
+        "answer": "Yes! For those who mentioned needing transport in the invitation, there will be a bus service. If you didn't RSVP for transport but need it now, just give us a heads-up, and we'll get you on board!"
+    },
+    {
+        "id": "parking-info",
+        "question": "Where can I park for the ceremony or reception?",
+        "answer": "There is a small parking lot near both venues, and additional parking is just a short 5-minute walk away. Don't worry, the route will be well-marked – we wouldn't want you wandering into the wrong party!"
+    },
+    {
+        "id": "hotel-transport",
+        "question": "Will there be transportation back to the hotel after the wedding?",
+        "answer": "Yes, transport back to the hotel will be provided at the end of the night. That way, everyone can dance their heart out without worrying about the journey back."
+    },
+    {
+        "id": "photography-policy",
+        "question": "Can we take pictures with our phones and cameras during the wedding?",
+        "answer": "We'd love for you to snap some memories before and after the ceremony and share them with us! But during the ceremony, we ask that you keep phones away to enjoy a screen-free moment. Don't worry, our photographer will catch all the beautiful moments (including any teary eyes)."
+    },
+    {
+        "id": "children-policy",
+        "question": "Is it appropriate to bring children to the wedding?",
+        "answer": "Absolutely, children are welcome! Just make sure you RSVP with their names so we're prepared. However, since we won't have a dedicated animator, bring something to keep them entertained – who doesn't love a little bit of dancing or some coloring books?"
+    },
+    {
+        "id": "gift-preferences",
+        "question": "What type of gifts are preferred, or is cash accepted?",
+        "answer": "Your presence is honestly the greatest gift! But if you're set on gifting something, a cash contribution would be most helpful as we'll need to bring any physical gifts back to Dublin – and sadly, our luggage isn't a bottomless bag like Mary Poppins'!"
+    },
+    {
+        "id": "plus-one-policy",
+        "question": "Can I bring a +1?",
+        "answer": "We'll do our best to accommodate everyone, so please email us at test@test.com. We'll let you know if we can squeeze in your plus one – the more, the merrier!"
+    },
+    {
+        "id": "additional-questions",
+        "question": "I have a question not answered here; how do I contact you?",
+        "answer": "We're here to help! Just email test@test.com with any other questions or requests, and we'll get back to you faster than you can say \"wedding bells!\""
+    }
+]
