@@ -548,7 +548,8 @@ components:
       required:
         - id
         - number
-        - translations
+        - title
+        - description
       properties:
         id:
           type: string
@@ -557,19 +558,11 @@ components:
         photoURL:
           type: string
           format: uri
-        translations:
-          type: object
-          additionalProperties:
-            type: object
-            properties:
-              title:
-                type: string
-              description:
-                type: string
-            required:
-              - title
-              - description
-
+        title:
+          type: string
+        description:
+          type: string
+          
     SocialMediaLinks:
       type: object
       properties:

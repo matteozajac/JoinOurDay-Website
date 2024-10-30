@@ -1,182 +1,71 @@
-[
-  {
-    "translations": {
-      "en": {
-        "title": "How we met?",
-        "description": "We met at a grand masquerade ball, instantly drawn to each other despite not knowing who the other was. Our love blossomed quickly, even after we discovered our families were bitter rivals.\n"
-      },
-      "pl": {
-        "title": "Jak się poznaliśmy?",
-        "description": "Poznaliśmy się na wielkim balu maskowym i od razu przyciągnęliśmy się do siebie, mimo że nie wiedzieliśmy, kim jest ten drugi. Nasza miłość rozkwitła szybko, nawet gdy odkryliśmy, że nasze rodziny są zaciekłymi rywalami.\n"
-      },
-      "es": {
-        "title": "¿Cómo nos conocimos?",
-        "description": "Nos conocimos en un gran baile de máscaras y nos sentimos instantáneamente atraídos el uno por el otro a pesar de no saber quién era el otro. Nuestro amor floreció rápidamente, incluso después de que descubrimos que nuestras familias eran rivales acérrimos.\n"
-      }
-    },
-    "id": 1,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602419"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "First Encounter",
-        "description": "Romeo and Juliet meet at the Capulet ball and instantly fall in love"
-      },
-      "pl": {
-        "title": "Pierwsze spotkanie",
-        "description": "Romeo i Julia spotykają się na balu Capuletów i od razu zakochują się w sobie"
-      },
-      "es": {
-        "title": "Primer encuentro",
-        "description": "Romeo y Julieta se conocen en el baile de los Capuleto y se enamoran al instante"
-      }
-    },
-    "id": 2,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602420"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Secret Marriage",
-        "description": "The young lovers marry in secret with help from Friar Laurence"
-      },
-      "pl": {
-        "title": "Sekretne małżeństwo",
-        "description": "Młodzi kochankowie pobierają się potajemnie z pomocą brata Laurentego"
-      },
-      "es": {
-        "title": "matrimonio secreto",
-        "description": "Los jóvenes amantes se casan en secreto con la ayuda de Fray Lorenzo."
-      }
-    },
-    "id": 3,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602421"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Tybalt's Death",
-        "description": "Romeo kills Juliet's cousin Tybalt and is banished from Verona"
-      },
-      "pl": {
-        "title": "Śmierć Tybalta",
-        "description": "Romeo zabija kuzyna Julii Tybalta i zostaje wygnany z Werony"
-      },
-      "es": {
-        "title": "La muerte de Tebaldo",
-        "description": "Romeo mata al primo de Julieta, Teobaldo, y es desterrado de Verona."
-      }
-    },
-    "id": 4,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602422"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Juliet's Fake Death",
-        "description": "Juliet takes a potion to fake her death and avoid marriage to Paris"
-      },
-      "pl": {
-        "title": "Fałszywa śmierć Julii",
-        "description": "Julia bierze eliksir, aby sfingować swoją śmierć i uniknąć małżeństwa z Paryżem"
-      },
-      "es": {
-        "title": "La falsa muerte de Julieta",
-        "description": "Julieta toma una poción para fingir su muerte y evitar casarse con Paris"
-      }
-    },
-    "id": 5,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602423"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Romeo's Exile",
-        "description": "Romeo struggles with his banishment in Mantua"
-      },
-      "pl": {
-        "title": "Wygnanie Romea",
-        "description": "Romeo zmaga się z wygnaniem w Mantui"
-      },
-      "es": {
-        "title": "El exilio de Romeo",
-        "description": "Romeo lucha con su destierro en Mantua"
-      }
-    },
-    "id": 6,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602424"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Miscommunication",
-        "description": "The message about Juliet's fake death fails to reach Romeo"
-      },
-      "pl": {
-        "title": "Nieporozumienie",
-        "description": "Wiadomość o sfingowanej śmierci Julii nie dociera do Romea"
-      },
-      "es": {
-        "title": "Falta de comunicación",
-        "description": "El mensaje sobre la falsa muerte de Julieta no llega a Romeo"
-      }
-    },
-    "id": 7,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602425"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Romeo's Return",
-        "description": "Romeo returns to Verona believing Juliet is dead"
-      },
-      "pl": {
-        "title": "Powrót Romea",
-        "description": "Romeo wraca do Werony wierząc, że Julia nie żyje"
-      },
-      "es": {
-        "title": "El regreso de Romeo",
-        "description": "Romeo regresa a Verona creyendo que Julieta está muerta"
-      }
-    },
-    "id": 8,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602426"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Tragic Ending",
-        "description": "Both lovers die by suicide due to a series of misunderstandings"
-      },
-      "pl": {
-        "title": "Tragiczny koniec",
-        "description": "Obydwoje kochankowie popełniają samobójstwo w wyniku szeregu nieporozumień"
-      },
-      "es": {
-        "title": "Final trágico",
-        "description": "Ambos amantes se suicidan debido a una serie de malentendidos."
-      }
-    },
-    "id": 9,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602427"
-  },
-  {
-    "translations": {
-      "en": {
-        "title": "Family Reconciliation",
-        "description": "The Montagues and Capulets end their feud after the tragedy"
-      },
-      "pl": {
-        "title": "Pojednanie rodzinne",
-        "description": "Po tragedii Montekowie i Kapuleci kończą spór"
-      },
-      "es": {
-        "title": "Conciliación Familiar",
-        "description": "Los Montesco y los Capuleto ponen fin a su enemistad tras la tragedia"
-      }
-    },
-    "id": 10,
-    "photoURL": "https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/602428"
-  }
+[{
+  "id": "1",
+  "number": 1,
+  "photoURL": "https://assetsio.gnwcdn.com/chlopi-content-jagna-antek.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
+  "title": "First Glance at the Harvest",
+  "description": "In the midst of the autumn harvest, Jagna's beauty caught Antek's eye as she worked in the fields, her presence drawing attention from all around"
+},
+{
+  "id": "2",
+  "number": 2,
+  "photoURL": "https://www.filmawka.pl/wp-content/uploads/2023/10/Chłopi-Antek1.jpg",
+  "title": "Evening Gatherings",
+  "description": "During the village gatherings, Antek and Jagna found themselves drawn to each other, their feelings growing stronger with each passing day"
+},
+{
+  "id": "3",
+  "number": 3,
+  "photoURL": "https://niezlasztuka.net/wp-content/uploads/2023/11/julian-falat-z-chrustem-chlopi-film.jpg",
+  "title": "Winter's Embrace",
+  "description": "As winter settled over the village, their passion deepened, finding moments of connection during the long, cold evenings"
+},
+{
+  "id": "4",
+  "number": 4,
+  "photoURL": "https://fwcdn.pl/webv/57/98/65798/65798.6.jpg",
+  "title": "Village Whispers",
+  "description": "Their growing attachment became the subject of village gossip, as their feelings proved impossible to hide"
+},
+{
+  "id": "5",
+  "number": 5,
+  "photoURL": "https://i.iplsc.com/-/000GHZAB3MXS7K9K-C461-F4.jpg",
+  "title": "Social Pressures",
+  "description": "The village's traditional values and social expectations began to weigh heavily on their relationship"
+},
+{
+  "id": "6",
+  "number": 6,
+  "photoURL": "https://okiemfilmoholika.pl/wp-content/uploads/2023/10/Chlopi-20237.jpeg",
+  "title": "Difficult Choices",
+  "description": "Torn between duty and desire, both faced painful decisions about their future"
+},
+{
+  "id": "7",
+  "number": 7,
+  "photoURL": "https://pliki.ppe.pl/storage/5e3c45603d73e1475573/5e3c45603d73e1475573.jpg",
+  "title": "Spring's Return",
+  "description": "As spring returned to the village, their feelings remained strong despite the obstacles they faced"
+},
+{
+  "id": "8",
+  "number": 8,
+  "photoURL": "https://m.salon24.pl/682cdb5f7beab1374c5761f74825bc88,930,0,0,0.jpg",
+  "title": "Community Judgment",
+  "description": "The weight of community judgment and traditional values pressed upon their relationship"
+},
+{
+  "id": "9",
+  "number": 9,
+  "photoURL": "https://i.ytimg.com/vi/v7P0HYe5PgY/maxresdefault.jpg",
+  "title": "Fateful Decisions",
+  "description": "Their passionate relationship faced its ultimate test as social pressures and personal choices came to a head"
+},
+{
+  "id": "10",
+  "number": 10,
+  "photoURL": "https://cdn.ug.edu.pl/wp-content/uploads/2023/10/ch-kf-jagna-i-antek-malgorzata-kuznik.jpg",
+  "title": "Rural Reality",
+  "description": "Their story became a testament to the complex interplay of passion and social obligations in rural Polish life"
+}
 ]
