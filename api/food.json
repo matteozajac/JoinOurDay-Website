@@ -1,0 +1,182 @@
+[
+    {
+        "id": "got_food_1",
+        "name": "Roasted Boar with Dornish Wine Sauce",
+        "images": [],
+        "description": "Wild boar slow-roasted with herbs and finished with spiced wine reduction, as served at King Robert's last feast",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["SU"]
+    },
+    {
+        "id": "got_food_2",
+        "name": "Highgarden Rose Petal Risotto",
+        "images": [],
+        "description": "Creamy risotto with saffron and crystallized rose petals from the Tyrell gardens",
+        "categories": ["adults", "vegetarian"],
+        "type": "AP",
+        "allergens": ["MI"]
+    },
+    {
+        "id": "got_food_3",
+        "name": "Northern Wild Duck Pie",
+        "images": [],
+        "description": "Flaky pastry filled with wild duck, winter vegetables, and herbs from beyond the Wall",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["WH", "EG"]
+    },
+    {
+        "id": "got_food_4",
+        "name": "Braavosi Mushroom Towers",
+        "images": [],
+        "description": "Stacked exotic mushrooms with herbs and garlic, inspired by the Titan of Braavos",
+        "categories": ["adults", "vegetarian"],
+        "type": "AP",
+        "allergens": []
+    },
+    {
+        "id": "got_food_5",
+        "name": "Frey Wedding Pigeon Pie",
+        "images": [],
+        "description": "Traditional wedding pie filled with pigeon and bacon, served with rich gravy",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["WH", "EG"]
+    },
+    {
+        "id": "got_food_6",
+        "name": "Dothraki Blood Pie",
+        "images": [],
+        "description": "Spiced meat pie made with lamb and exotic spices from the Great Grass Sea",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["WH", "EG"]
+    },
+    {
+        "id": "got_food_7",
+        "name": "Winterfell Roasted Root Medley",
+        "images": [],
+        "description": "Northern root vegetables roasted with herbs and butter, served with crusty bread",
+        "categories": ["adults", "vegetarian"],
+        "type": "MC",
+        "allergens": ["MI", "WH"]
+    },
+    {
+        "id": "got_food_8",
+        "name": "Casterly Rock Golden Pheasant",
+        "images": [],
+        "description": "Roasted pheasant glazed with honey and saffron, worthy of Lannister gold",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["SU"]
+    },
+    {
+        "id": "got_food_9",
+        "name": "Dragon Egg Spiced Soup",
+        "images": [],
+        "description": "Creamy pumpkin soup with fire-roasted peppers and exotic spices",
+        "categories": ["adults", "vegetarian"],
+        "type": "SO",
+        "allergens": ["MI"]
+    },
+    {
+        "id": "got_food_10",
+        "name": "Ironborn Salted Cod Cakes",
+        "images": [],
+        "description": "Crispy fish cakes made with salted cod, paying the iron price",
+        "categories": ["adults"],
+        "type": "AP",
+        "allergens": ["FI", "WH", "EG"]
+    },
+    {
+        "id": "got_food_11",
+        "name": "Red Wedding Wine-Poached Pears",
+        "images": [],
+        "description": "Pears poached in mulled wine with winter spices and honey",
+        "categories": ["adults", "vegetarian"],
+        "type": "DE",
+        "allergens": ["SU"]
+    },
+    {
+        "id": "got_food_12",
+        "name": "Wildling Venison Stew",
+        "images": [],
+        "description": "Hearty stew of wild venison with root vegetables and forest mushrooms",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["CE"]
+    },
+    {
+        "id": "got_food_13",
+        "name": "Kings Landing Honeyed Chicken",
+        "images": [],
+        "description": "Roasted chicken glazed with honey and lemon, served with golden raisins",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["SU"]
+    },
+    {
+        "id": "got_food_14",
+        "name": "Oldtown Citadel Bread Pudding",
+        "images": [],
+        "description": "Warm spiced bread pudding with dried fruits and vanilla custard",
+        "categories": ["adults", "vegetarian"],
+        "type": "DE",
+        "allergens": ["WH", "MI", "EG"]
+    },
+    {
+        "id": "got_food_15",
+        "name": "Dornish Snake Skewers",
+        "images": [],
+        "description": "Grilled snake meat marinated in spices and served with fiery sauce",
+        "categories": ["adults"],
+        "type": "AP",
+        "allergens": []
+    },
+    {
+        "id": "got_food_16",
+        "name": "Vale Mountain Trout",
+        "images": [],
+        "description": "Fresh mountain trout stuffed with herbs and lemon, wrapped in bacon",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["FI"]
+    },
+    {
+        "id": "got_food_17",
+        "name": "Three-Eyed Raven's Pudding",
+        "images": [],
+        "description": "Dark chocolate and weirwood berry pudding with a mysterious swirl pattern",
+        "categories": ["adults", "vegetarian"],
+        "type": "DE",
+        "allergens": ["MI", "EG", "SY"]
+    },
+    {
+        "id": "got_food_18",
+        "name": "Night's Watch Black Sausage",
+        "images": [],
+        "description": "Spiced black pudding served with caramelized onions",
+        "categories": ["adults"],
+        "type": "AP",
+        "allergens": ["WH"]
+    },
+    {
+        "id": "got_food_19",
+        "name": "Pentoshi Pepper Potage",
+        "images": [],
+        "description": "Creamy potato soup with fire peppers and exotic spices from across the Narrow Sea",
+        "categories": ["adults", "vegetarian"],
+        "type": "SO",
+        "allergens": ["MI"]
+    },
+    {
+        "id": "got_food_20",
+        "name": "Qarth Spiced Duck",
+        "images": [],
+        "description": "Duck breast with exotic spices from the far east, served with pomegranate sauce",
+        "categories": ["adults"],
+        "type": "MC",
+        "allergens": ["SU"]
+    }
+]
