@@ -5,11 +5,24 @@ body {
 }
 
 .container {
-    padding-top: 40px;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: auto 0;
 }
 
 /* Common styles for both terms and privacy content */
@@ -59,7 +72,11 @@ li {
 
 /* Existing styles for homepage */
 #vara-container {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .subtitle {
@@ -152,5 +169,99 @@ li {
 
     .submit-button {
         width: 100%;
+    }
+}
+
+/* Add these styles to your existing CSS file */
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #FF69B4;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    border: 2px solid #FF69B4;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #FF69B4;
+    color: white;
+}
+
+.app-links {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.app-store-link {
+    color: #FF69B4;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: 2px solid #FF69B4;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.app-store-link:hover {
+    background-color: #FF69B4;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add footer styles */
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: #FF69B4;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+}
+
+.footer-link:hover {
+    color: #FF1493;
+    transform: translateY(-2px);
+}
+
+/* Update responsive styles */
+@media (max-width: 600px) {
+    .footer-links {
+        gap: 15px;
+        padding: 0 20px;
+    }
+    
+    .footer-link {
+        font-size: 0.9rem;
     }
 }

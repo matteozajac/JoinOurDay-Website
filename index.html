@@ -15,9 +15,20 @@
 </head>
 <body>
     <div class="container">
-        <div id="vara-container"></div>
-        <div class="subtitle" id="subtitle">Coming Soon</div>
+        <div class="content-wrapper">
+            <div id="vara-container"></div>
+            <div class="subtitle" id="subtitle">Coming Soon</div>
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="privacy.html" class="footer-link">Privacy Policy</a>
+                <a href="terms.html" class="footer-link">Terms of Service</a>
+                <a href="report.html" class="footer-link">Report an Issue</a>
+            </div>
+        </footer>
     </div>
+
     <script>
         var vara = new Vara(
             "#vara-container",
@@ -27,7 +38,7 @@
                     text: "Join Our Day",
                     fontSize: 64,
                     strokeWidth: 2,
-                    color: "#FF69B4", // Hot pink
+                    color: "#FF69B4",
                     duration: 3000
                 }
             ],
