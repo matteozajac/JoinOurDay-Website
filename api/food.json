@@ -1,622 +1,552 @@
 {
-    "tabs": [
-      {
-        "id": "cocktail_hour",
-        "title": "Cocktail Hour",
-        "description": "A 1–1.5-hour welcome with drinks and appetizers, allowing guests to mingle and enjoy local flavors before the main meal.",
-        "sections": [
-          {
-            "id": "appetizers",
-            "title": "Appetizers",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "nube_burger",
-                "name": "Nube Burger with Sichuan Pepper Beef",
-                "description": "A mini cloud-like burger with tender beef and a hint of Sichuan pepper for a mildly spicy kick.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "cheese_ravioli",
-                "name": "Crunchy Cheese Ravioli with Truffled Honey",
-                "description": "Crispy ravioli filled with cheese, drizzled with truffle-infused honey for a sweet and earthy flavor.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "lamb_lollipops",
-                "name": "Lamb Lollipops with Curry and Mango Sauce",
-                "description": "Tender lamb skewers served with a sweet and spicy curry and mango sauce for a unique flavor blend.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "gorgonzola_cubes",
-                "name": "Homemade Gorgonzola Creamy Cubes",
-                "description": "Soft, creamy cubes made from Gorgonzola cheese for a rich and tangy flavor.",
-                "allergens": ["MI"],
-                "image": null
-              },
-              {
-                "id": "mini_tortillas",
-                "name": "Mini Tortillas with Black Truffle Cream",
-                "description": "Small tortillas with a rich black truffle cream.",
-                "allergens": ["MI"],
-                "image": null
-              },
-              {
-                "id": "prawn_torpedo",
-                "name": "Vietnamese Prawn Torpedo with Panko",
-                "description": "Crispy prawn roll coated in panko crumbs for a crunchy bite, inspired by Vietnamese flavors.",
-                "allergens": ["SF", "WH"],
-                "image": null
-              },
-              {
-                "id": "croquettes",
-                "name": "Mini Croquettes with Creamy Iberian Ham",
-                "description": "Small, creamy croquettes made with Iberian ham, lightly fried for a golden crust.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "salmon_tartare",
-                "name": "Tartare of Salmon with Avocado and Tomato",
-                "description": "A fresh and light salmon tartare mixed with avocado and tomato for a balanced flavor.",
-                "allergens": ["FI"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "vegetarian_appetizers",
-            "title": "Appetizers (Vegetarian)",
-            "description": null,
-            "collapsable": true,
-            "items": [
-              {
-                "id": "gazpachuelo",
-                "name": "Gazpachuelo with Organic Vegetables",
-                "description": "A light, refreshing soup made from fresh organic vegetables, served chilled.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "wok_quinoa",
-                "name": "Wok-Sautéed Quinoa",
-                "description": "Nutty quinoa stir-fried with vegetables for a flavorful and healthy bite.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "crudites_guacamole",
-                "name": "Crudités with Guacamole",
-                "description": "Fresh vegetable sticks served with creamy guacamole for dipping.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "hummus",
-                "name": "Homemade Hummus",
-                "description": "Smooth, rich chickpea spread seasoned with olive oil and spices.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "tofu_cream",
-                "name": "Tofu Cream with Dips",
-                "description": "Silky tofu-based cream served with assorted dips for a delightful mix of flavors.",
-                "allergens": ["SY"],
-                "image": null
-              },
-              {
-                "id": "vegetable_chips",
-                "name": "Homemade Vegetable Chips (Organic)",
-                "description": "Crispy, organic vegetable chips made in-house for a crunchy snack.",
-                "allergens": [],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "food_stations",
-            "title": "Food Stations",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "la_queseria",
-                "name": "La Quesería",
-                "description": "A curated selection of cheeses with Protected Designation of Origin (D.O.), accompanied by traditional crackers, walnuts, seasonal fruits, and a variety of jams.",
-                "allergens": ["MI", "TN", "WH"],
-                "image": null
-              },
-              {
-                "id": "corte_de_jamon",
-                "name": "Corte de Jamón",
-                "description": "Hand-carved Iberian ham, freshly sliced by a professional carver.",
-                "allergens": [],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "beverages",
-            "title": "Beverages",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "red_wine",
-                "name": "Red Wine",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "white_wine",
-                "name": "White Wine",
-                "description": null,
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "mahou_beer",
-                "name": "Mahou Beer",
-                "description": "",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "agua_de_valencia",
-                "name": "Agua de Valencia",
-                "description": "A cocktail made with cava, orange juice, vodka, and gin.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "classic_lemonade",
-                "name": "Classic Lemonade",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "raspberry_mint_lemonade",
-                "name": "Raspberry and Mint Lemonade",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "mineral_water",
-                "name": "Mineral Water",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "soft_drinks",
-                "name": "Soft Drinks",
-                "description": "",
-                "allergens": [],
-                "image": null
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "dinner",
-        "title": "Dinner",
-        "description": null,
-        "sections": [
-          {
-            "id": "starters",
-            "title": "Starters",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "mango_salad",
-                "name": "Mango Salad with Caramelized Goat Cheese",
-                "description": "With crispy fried leek.",
-                "allergens": ["MI"],
-                "image": null
-              },
-              {
-                "id": "grilled_octopus",
-                "name": "Grilled Octopus",
-                "description": "Served on a bed of creamy potato and pistachio.",
-                "allergens": ["FI", "TN"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "sorbet",
-            "title": "Sorbet",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "green_apple_sorbet",
-                "name": "Green Apple Sorbet",
-                "description": "",
-                "allergens": [],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "main_courses",
-            "title": "Main Course",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "iberian_pork",
-                "name": "Iberian Pork Tenderloin",
-                "description": "With sherry wine sauce and creamy ginger purée.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "slow_cooked_cod",
-                "name": "Slow-Cooked Cod",
-                "description": "On pea purée with sea coral garnish.",
-                "allergens": ["FI"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "sweet_moment",
-            "title": "Sweet Moment",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "wedding_cake",
-                "name": "Wedding Cake",
-                "description": "Served with premium Brut Nature Cava, accompanied by iced coffee or hot coffee.",
-                "allergens": ["MI", "EG", "WH"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "vegan_menu",
-            "title": "Vegan Menu",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "vegan_gnocchi",
-                "name": "Homemade Gnocchi with Fresh Pesto Sauce",
-                "description": "Modifiable upon request.",
-                "allergens": ["WH", "TN"],
-                "image": null
-              },
-              {
-                "id": "vegan_sorbet",
-                "name": "Green Apple Sorbet",
-                "description": "Same options as the main menu, adapted for vegetarians.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "vegan_lasagna",
-                "name": "100% Organic Vegetable Protein Lasagna",
-                "description": "",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "vegan_dessert",
-                "name": "Soy Cream with Mango Air and Diced Papaya",
-                "description": "",
-                "allergens": ["SY"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "dinner_beverages",
-            "title": "Beverages",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "red_wine_dinner",
-                "name": "Red Wine (Roja)",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "white_wine_dinner",
-                "name": "White Wine (Albariño)",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "beer_dinner",
-                "name": "Beer (Mahou, Estrella Galicia)",
-                "description": "",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "vermouth",
-                "name": "Vermouth",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "water",
-                "name": "Water",
-                "description": "",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "soft_drinks_dinner",
-                "name": "Soft Drinks",
-                "description": "",
-                "allergens": [],
-                "image": null
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "after_dinner",
-        "title": "After Dinner",
-        "description": "Enjoy a variety of desserts and an open bar with unlimited drinks to celebrate the evening.",
-        "sections": [
-          {
-            "id": "sweet_table",
-            "title": "Sweet Table",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "tiramisu",
-                "name": "Tiramisu",
-                "description": "A classic Italian dessert with layers of espresso-soaked ladyfingers, mascarpone cream, and a dusting of cocoa.",
-                "allergens": ["MI", "EG", "WH"],
-                "image": null
-              },
-              {
-                "id": "cannoli",
-                "name": "Cannoli",
-                "description": "Crisp pastry shells filled with sweet ricotta cheese.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "panna_cotta",
-                "name": "Panna Cotta",
-                "description": "A smooth, creamy dessert made from sweetened cream.",
-                "allergens": ["MI"],
-                "image": null
-              },
-              {
-                "id": "sfogliatelle",
-                "name": "Sfogliatelle",
-                "description": "Delicate, layered pastries filled with sweet ricotta and citrus zest.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "sernik",
-                "name": "Sernik (Polish Cheesecake)",
-                "description": "A rich cheesecake made with twaróg (Polish cheese).",
-                "allergens": ["MI", "EG", "WH"],
-                "image": null
-              },
-              {
-                "id": "paczki",
-                "name": "Paczki (Polish Doughnuts)",
-                "description": "Light, fluffy doughnuts filled with jam, custard, or cream.",
-                "allergens": ["MI", "EG", "WH"],
-                "image": null
-              },
-              {
-                "id": "kremowka",
-                "name": "Kremówka (Polish Cream Cake)",
-                "description": "Layers of flaky pastry filled with sweet vanilla cream.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "open_bar",
-            "title": "Open Bar",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "rums",
-                "name": "Rums",
-                "description": "Brugal, Flor de Caña, Barcelo, and Bacardí.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "vodka",
-                "name": "Vodka",
-                "description": "Smirnoff, Absolut, and Stolichnaya.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "whisky",
-                "name": "Whisky",
-                "description": "Cutty Sark, Ballantine's, and Johnnie Walker Red.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "gins",
-                "name": "Gins",
-                "description": "Larios 12, Beefeater, Tanqueray, and Puerto de Indias Rosé.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "liqueurs",
-                "name": "Liqueurs",
-                "description": "Baileys, Martini Bianco, Jägermeister, and others.",
-                "allergens": ["MI"],
-                "image": null
-              },
-              {
-                "id": "soft_drinks_open_bar",
-                "name": "Soft Drinks",
-                "description": "Coca-Cola, Sprite, Fanta, Tonic Water, Energy Drink, Juices, Water.",
-                "allergens": [],
-                "image": null
-              },
-              {
-                "id": "beer_open_bar",
-                "name": "Beer (Mahou Clásica)",
-                "description": "",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "cocktails",
-                "name": "Cocktails",
-                "description": "Soft Colada and San Francisco.",
-                "allergens": ["MI"],
-                "image": null
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "night_snacks",
-        "title": "Night Snacks",
-        "description": "Late-night snacks to keep you energized for the festivities.",
-        "sections": [
-          {
-            "id": "savory_crepes",
-            "title": "Savory Crepes",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "cheese_ham_crepe",
-                "name": "Cheese and Ham Crepe",
-                "description": "A classic combination with melted cheese.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "vegetable_mix_crepe",
-                "name": "Vegetable Mix Crepe",
-                "description": "A blend of fresh vegetables like spinach, mushrooms, and peppers.",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "chicken_pesto_crepe",
-                "name": "Chicken and Pesto Crepe",
-                "description": "",
-                "allergens": ["WH", "TN"],
-                "image": null
-              },
-              {
-                "id": "smoked_salmon_crepe",
-                "name": "Smoked Salmon and Cream Cheese Crepe",
-                "description": "",
-                "allergens": ["FI", "MI", "WH"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "sweet_crepes",
-            "title": "Sweet Crepes",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "nutella_banana_crepe",
-                "name": "Nutella and Banana Crepe",
-                "description": "A sweet treat with chocolate spread.",
-                "allergens": ["MI", "WH", "TN"],
-                "image": null
-              },
-              {
-                "id": "caramel_apple_crepe",
-                "name": "Caramelized Apples and Cinnamon Crepe",
-                "description": "Warm apples with a hint of spice.",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "strawberry_cream_crepe",
-                "name": "Strawberry and Cream Crepe",
-                "description": "Fresh strawberries with whipped cream.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "honey_walnut_crepe",
-                "name": "Honey and Walnuts Crepe",
-                "description": "",
-                "allergens": ["WH", "TN"],
-                "image": null
-              }
-            ]
-          },
-          {
-            "id": "hot_dogs",
-            "title": "Hot Dogs",
-            "description": null,
-            "collapsable": false,
-            "items": [
-              {
-                "id": "classic_hot_dog",
-                "name": "Classic Hot Dog",
-                "description": "Served with ketchup, mustard, and relish.",
-                "allergens": ["WH"],
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEp4lkwB5hkN2og3esPZmachlb8dM-X_dEfA&s"
-              },
-              {
-                "id": "cheese_onion_hot_dog",
-                "name": "Cheese and Onion Hot Dog",
-                "description": "Topped with melted cheese and caramelized onions.",
-                "allergens": ["MI", "WH"],
-                "image": null
-              },
-              {
-                "id": "spicy_chorizo_hot_dog",
-                "name": "Spicy Chorizo Hot Dog",
-                "description": "With sliced Spanish chorizo for a kick of spice.",
-                "allergens": ["WH"],
-                "image": null
-              },
-              {
-                "id": "guacamole_jalapeno_hot_dog",
-                "name": "Guacamole and Jalapeño Hot Dog",
-                "description": "For those who enjoy a bit of spice and flavor.",
-                "allergens": ["WH"],
-                "image": null
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "tabs": [
+    {
+      "id": "cocktail_hour",
+      "title": "Cocktail Hour",
+      "description": null,
+      "sections": [
+        {
+          "id": "appetizers",
+          "title": "Appetizers",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "nube_burger",
+              "name": "Nube Burger with Sichuan Pepper Beef",
+              "description": "A mini cloud-like burger with tender beef and a hint of Sichuan pepper for a mildly spicy kick.",
+              "image": null,
+              "category": null
+            },
+            {
+              "id": "cheese_ravioli",
+              "name": "Crunchy Cheese Ravioli with Truffled Honey",
+              "description": "Crispy ravioli filled with cheese, drizzled with truffle-infused honey for a sweet and earthy flavor.",
+              "image": null,
+              "category": "vt"
+            },
+            {
+              "id": "lamb_lollipops",
+              "name": "Lamb Lollipops with Curry and Mango Sauce",
+              "description": "Tender lamb skewers served with a sweet and spicy curry and mango sauce for a unique flavor blend.",
+              "image": null
+            },
+            {
+              "id": "gorgonzola_cubes",
+              "name": "Homemade Gorgonzola Creamy Cubes",
+              "description": "Soft, creamy cubes made from Gorgonzola cheese for a rich and tangy flavor.",
+              "image": null
+            },
+            {
+              "id": "mini_tortillas",
+              "name": "Mini Tortillas with Black Truffle Cream",
+              "description": "Small tortillas with a rich black truffle cream.",
+              "image": null
+            },
+            {
+              "id": "prawn_torpedo",
+              "name": "Vietnamese Prawn Torpedo with Panko",
+              "description": "Crispy prawn roll coated in panko crumbs for a crunchy bite, inspired by Vietnamese flavors.",
+              "image": null
+            },
+            {
+              "id": "croquettes",
+              "name": "Mini Croquettes with Creamy Iberian Ham",
+              "description": "Small, creamy croquettes made with Iberian ham, lightly fried for a golden crust.",
+              "image": null
+            },
+            {
+              "id": "salmon_tartare",
+              "name": "Tartare of Salmon with Avocado and Tomato",
+              "description": "A fresh and light salmon tartare mixed with avocado and tomato for a balanced flavor.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "vegetarian_appetizers",
+          "title": "Appetizers (Vegetarian)",
+          "description": null,
+          "collapsable": true,
+          "items": [
+            {
+              "id": "gazpachuelo",
+              "name": "Gazpachuelo with Organic Vegetables",
+              "description": "A light, refreshing soup made from fresh organic vegetables, served chilled.",
+              "image": null,
+              "category": "vg"
+            },
+            {
+              "id": "wok_quinoa",
+              "name": "Wok-Sautéed Quinoa",
+              "description": "Nutty quinoa stir-fried with vegetables for a flavorful and healthy bite.",
+              "image": null
+            },
+            {
+              "id": "crudites_guacamole",
+              "name": "Crudités with Guacamole",
+              "description": "Fresh vegetable sticks served with creamy guacamole for dipping.",
+              "image": null
+            },
+            {
+              "id": "hummus",
+              "name": "Homemade Hummus",
+              "description": "Smooth, rich chickpea spread seasoned with olive oil and spices.",
+              "image": null
+            },
+            {
+              "id": "tofu_cream",
+              "name": "Tofu Cream with Dips",
+              "description": "Silky tofu-based cream served with assorted dips for a delightful mix of flavors.",
+              "image": null
+            },
+            {
+              "id": "vegetable_chips",
+              "name": "Homemade Vegetable Chips (Organic)",
+              "description": "Crispy, organic vegetable chips made in-house for a crunchy snack.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "food_stations",
+          "title": "Food Stations",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "la_queseria",
+              "name": "La Quesería",
+              "description": "A curated selection of cheeses with Protected Designation of Origin (D.O.), accompanied by traditional crackers, walnuts, seasonal fruits, and a variety of jams.",
+              "image": null
+            },
+            {
+              "id": "corte_de_jamon",
+              "name": "Corte de Jamón",
+              "description": "Hand-carved Iberian ham, freshly sliced by a professional carver.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "beverages",
+          "title": "Beverages",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "red_wine",
+              "name": "Red Wine",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "white_wine",
+              "name": "White Wine",
+              "description": null,
+              "image": null
+            },
+            {
+              "id": "mahou_beer",
+              "name": "Mahou Beer",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "agua_de_valencia",
+              "name": "Agua de Valencia",
+              "description": "A cocktail made with cava, orange juice, vodka, and gin.",
+              "image": null
+            },
+            {
+              "id": "classic_lemonade",
+              "name": "Classic Lemonade",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "raspberry_mint_lemonade",
+              "name": "Raspberry and Mint Lemonade",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "mineral_water",
+              "name": "Mineral Water",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "soft_drinks",
+              "name": "Soft Drinks",
+              "description": "",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "title": "Dinner",
+      "description": null,
+      "sections": [
+        {
+          "id": "starters",
+          "title": "Starters",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "mango_salad",
+              "name": "Mango Salad with Caramelized Goat Cheese",
+              "description": "With crispy fried leek.",
+              "caption": "Non Seafood",
+              "category": "vt",
+              "image": null
+            },
+            {
+              "id": "grilled_octopus",
+              "name": "Grilled Octopus",
+              "caption": "Seafood",
+              "description": "Served on a bed of creamy potato and pistachio.",
+              "image": null
+            },
+            {
+              "id": "vegan_gnocchi",
+              "name": "Homemade Gnocchi with Fresh Pesto Sauce",
+              "description": "Modifiable upon request.",
+              "image": null,
+              "category": "vg"
+            }
+          ]
+        },
+        {
+          "id": "sorbet",
+          "title": "Sorbet",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "green_apple_sorbet",
+              "name": "Green Apple Sorbet",
+              "description": "",
+              "image": null,
+              "category": null
+            }
+          ]
+        },
+        {
+          "id": "main_courses",
+          "title": "Main Course",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "iberian_pork",
+              "name": "Iberian Pork Tenderloin",
+              "description": "With sherry wine sauce and creamy ginger purée.",
+              "image": null,
+              "category": null
+            },
+            {
+              "id": "slow_cooked_cod",
+              "name": "Slow-Cooked Cod",
+              "description": "On pea purée with sea coral garnish.",
+              "image": null,
+              "category": null
+            },
+            {
+              "id": "vegan_lasagna",
+              "name": "100% Organic Vegetable Protein Lasagna",
+              "description": "",
+              "image": null,
+              "category": "vg"
+            }
+          ]
+        },
+        {
+          "id": "sweet_moment",
+          "title": "Sweet Moment",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "wedding_cake",
+              "name": "Wedding Cake",
+              "description": "Served with premium Brut Nature Cava, accompanied by iced coffee or hot coffee.",
+              "image": null
+            },
+            {
+              "id": "vegan_dessert",
+              "name": "Soy Cream with Mango Air and Diced Papaya",
+              "description": "",
+              "image": null,
+              "category": "vg"
+            }
+          ]
+        },
+        {
+          "id": "dinner_beverages",
+          "title": "Beverages",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "red_wine_dinner",
+              "name": "Red Wine (Roja)",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "white_wine_dinner",
+              "name": "White Wine (Albariño)",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "beer_dinner",
+              "name": "Beer (Mahou, Estrella Galicia)",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "vermouth",
+              "name": "Vermouth",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "water",
+              "name": "Water",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "soft_drinks_dinner",
+              "name": "Soft Drinks",
+              "description": "",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after_dinner",
+      "title": "After Dinner",
+      "description": null,
+      "sections": [
+        {
+          "id": "sweet_table",
+          "title": "Sweet Table",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "tiramisu",
+              "name": "Tiramisu",
+              "description": "A classic Italian dessert with layers of espresso-soaked ladyfingers, mascarpone cream, and a dusting of cocoa.",
+              "image": null
+            },
+            {
+              "id": "cannoli",
+              "name": "Cannoli",
+              "description": "Crisp pastry shells filled with sweet ricotta cheese.",
+              "image": null
+            },
+            {
+              "id": "panna_cotta",
+              "name": "Panna Cotta",
+              "description": "A smooth, creamy dessert made from sweetened cream.",
+              "image": null
+            },
+            {
+              "id": "sfogliatelle",
+              "name": "Sfogliatelle",
+              "description": "Delicate, layered pastries filled with sweet ricotta and citrus zest.",
+              "image": null
+            },
+            {
+              "id": "sernik",
+              "name": "Sernik (Polish Cheesecake)",
+              "description": "A rich cheesecake made with twaróg (Polish cheese).",
+              "image": null
+            },
+            {
+              "id": "paczki",
+              "name": "Paczki (Polish Doughnuts)",
+              "description": "Light, fluffy doughnuts filled with jam, custard, or cream.",
+              "image": null
+            },
+            {
+              "id": "kremowka",
+              "name": "Kremówka (Polish Cream Cake)",
+              "description": "Layers of flaky pastry filled with sweet vanilla cream.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "open_bar",
+          "title": "Open Bar",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "rums",
+              "name": "Rums",
+              "description": "Brugal, Flor de Caña, Barcelo, and Bacardí.",
+              "image": null
+            },
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "description": "Smirnoff, Absolut, and Stolichnaya.",
+              "image": null
+            },
+            {
+              "id": "whisky",
+              "name": "Whisky",
+              "description": "Cutty Sark, Ballantine's, and Johnnie Walker Red.",
+              "image": null
+            },
+            {
+              "id": "gins",
+              "name": "Gins",
+              "description": "Larios 12, Beefeater, Tanqueray, and Puerto de Indias Rosé.",
+              "image": null
+            },
+            {
+              "id": "liqueurs",
+              "name": "Liqueurs",
+              "description": "Baileys, Martini Bianco, Jägermeister, and others.",
+              "image": null
+            },
+            {
+              "id": "soft_drinks_open_bar",
+              "name": "Soft Drinks",
+              "description": "Coca-Cola, Sprite, Fanta, Tonic Water, Energy Drink, Juices, Water.",
+              "image": null
+            },
+            {
+              "id": "beer_open_bar",
+              "name": "Beer (Mahou Clásica)",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "cocktails",
+              "name": "Cocktails",
+              "description": "Soft Colada and San Francisco.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "night_snacks",
+      "title": "Night Snacks",
+      "description": null,
+      "sections": [
+        {
+          "id": "savory_crepes",
+          "title": "Savory Crepes",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "cheese_ham_crepe",
+              "name": "Cheese and Ham Crepe",
+              "description": "A classic combination with melted cheese.",
+              "image": null
+            },
+            {
+              "id": "vegetable_mix_crepe",
+              "name": "Vegetable Mix Crepe",
+              "description": "A blend of fresh vegetables like spinach, mushrooms, and peppers.",
+              "image": null
+            },
+            {
+              "id": "chicken_pesto_crepe",
+              "name": "Chicken and Pesto Crepe",
+              "description": "",
+              "image": null
+            },
+            {
+              "id": "smoked_salmon_crepe",
+              "name": "Smoked Salmon and Cream Cheese Crepe",
+              "description": "",
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "sweet_crepes",
+          "title": "Sweet Crepes",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "nutella_banana_crepe",
+              "name": "Nutella and Banana Crepe",
+              "description": "A sweet treat with chocolate spread.",
+              "image": null
+            },
+            {
+              "id": "caramel_apple_crepe",
+              "name": "Caramelized Apples and Cinnamon Crepe",
+              "description": "Warm apples with a hint of spice.",
+              "image": null
+            },
+            {
+              "id": "strawberry_cream_crepe",
+              "name": "Strawberry and Cream Crepe",
+              "description": "Fresh strawberries with whipped cream.",
+              "image": null
+            },
+            {
+              "id": "honey_walnut_crepe",
+              "name": "Honey and Walnuts Crepe",
+              "description": "",
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "hot_dogs",
+          "title": "Hot Dogs",
+          "description": null,
+          "collapsable": false,
+          "items": [
+            {
+              "id": "classic_hot_dog",
+              "name": "Classic Hot Dog",
+              "description": "Served with ketchup, mustard, and relish.",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEp4lkwB5hkN2og3esPZmachlb8dM-X_dEfA&s"
+            },
+            {
+              "id": "cheese_onion_hot_dog",
+              "name": "Cheese and Onion Hot Dog",
+              "description": "Topped with melted cheese and caramelized onions.",
+              "image": null
+            },
+            {
+              "id": "spicy_chorizo_hot_dog",
+              "name": "Spicy Chorizo Hot Dog",
+              "description": "With sliced Spanish chorizo for a kick of spice.",
+              "image": null
+            },
+            {
+              "id": "guacamole_jalapeno_hot_dog",
+              "name": "Guacamole and Jalapeño Hot Dog",
+              "description": "For those who enjoy a bit of spice and flavor.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
