@@ -15,15 +15,13 @@
               "id": "nube_burger",
               "name": "Nube Burger with Sichuan Pepper Beef",
               "description": "A mini cloud-like burger with tender beef and a hint of Sichuan pepper for a mildly spicy kick.",
-              "image": null,
-              "category": null
+              "image": null
             },
             {
               "id": "cheese_ravioli",
               "name": "Crunchy Cheese Ravioli with Truffled Honey",
               "description": "Crispy ravioli filled with cheese, drizzled with truffle-infused honey for a sweet and earthy flavor.",
-              "image": null,
-              "category": "vt"
+              "image": null
             },
             {
               "id": "lamb_lollipops",
@@ -73,8 +71,7 @@
               "id": "gazpachuelo",
               "name": "Gazpachuelo with Organic Vegetables",
               "description": "A light, refreshing soup made from fresh organic vegetables, served chilled.",
-              "image": null,
-              "category": "vg"
+              "image": null
             },
             {
               "id": "wok_quinoa",
@@ -202,7 +199,6 @@
               "name": "Mango Salad with Caramelized Goat Cheese",
               "description": "With crispy fried leek.",
               "caption": "Non Seafood",
-              "category": "vt",
               "image": null
             },
             {
@@ -216,8 +212,7 @@
               "id": "vegan_gnocchi",
               "name": "Homemade Gnocchi with Fresh Pesto Sauce",
               "description": "Modifiable upon request.",
-              "image": null,
-              "category": "vg"
+              "image": null
             }
           ]
         },
@@ -231,8 +226,7 @@
               "id": "green_apple_sorbet",
               "name": "Green Apple Sorbet",
               "description": "",
-              "image": null,
-              "category": null
+              "image": null
             }
           ]
         },
@@ -246,22 +240,19 @@
               "id": "iberian_pork",
               "name": "Iberian Pork Tenderloin",
               "description": "With sherry wine sauce and creamy ginger purée.",
-              "image": null,
-              "category": null
+              "image": null
             },
             {
               "id": "slow_cooked_cod",
               "name": "Slow-Cooked Cod",
               "description": "On pea purée with sea coral garnish.",
-              "image": null,
-              "category": null
+              "image": null
             },
             {
               "id": "vegan_lasagna",
               "name": "100% Organic Vegetable Protein Lasagna",
               "description": "",
-              "image": null,
-              "category": "vg"
+              "image": null
             }
           ]
         },
@@ -281,8 +272,7 @@
               "id": "vegan_dessert",
               "name": "Soy Cream with Mango Air and Diced Papaya",
               "description": "",
-              "image": null,
-              "category": "vg"
+              "image": null
             }
           ]
         },
