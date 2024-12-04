@@ -239,18 +239,21 @@
             {
               "id": "iberian_pork",
               "name": "Iberian Pork Tenderloin",
+              "caption": "Option 1 (meat)",
               "description": "With sherry wine sauce and creamy ginger purée.",
               "image": null
             },
             {
               "id": "slow_cooked_cod",
               "name": "Slow-Cooked Cod",
+                "caption": "Option 2 (fish)",
               "description": "On pea purée with sea coral garnish.",
               "image": null
             },
             {
               "id": "vegan_lasagna",
               "name": "100% Organic Vegetable Protein Lasagna",
+              "caption": "Option 3 (veg)",
               "description": "",
               "image": null
             }
