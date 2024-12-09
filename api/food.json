@@ -15,6 +15,7 @@
               "id": "nube_burger",
               "name": "Nube Burger with Sichuan Pepper Beef",
               "description": "A mini cloud-like burger with tender beef and a hint of Sichuan pepper for a mildly spicy kick.",
+"caption": "Let's start the party!",
               "image": null
             },
             {
@@ -44,7 +45,7 @@
             {
               "id": "prawn_torpedo",
               "name": "Vietnamese Prawn Torpedo with Panko",
-              "description": "Crispy prawn roll coated in panko crumbs for a crunchy bite, inspired by Vietnamese flavors.",
+              "description": "Crispy prawn roll coated in panko crumbs for a crunchy bite, inspired by Vietnamese flavours.",
               "image": null
             },
             {
@@ -56,7 +57,7 @@
             {
               "id": "salmon_tartare",
               "name": "Tartare of Salmon with Avocado and Tomato",
-              "description": "A fresh and light salmon tartare mixed with avocado and tomato for a balanced flavor.",
+              "description": "A fresh and light salmon tartare mixed with avocado and tomato for a balanced flavour.",
               "image": null
             }
           ]
@@ -68,8 +69,8 @@
           "collapsable": true,
           "items": [
             {
-              "id": "gazpachuelo",
-              "name": "Gazpachuelo with Organic Vegetables",
+              "id": "gazpacho",
+              "name": "Gazpacho with Organic Vegetables",
               "description": "A light, refreshing soup made from fresh organic vegetables, served chilled.",
               "image": null
             },
@@ -94,7 +95,7 @@
             {
               "id": "tofu_cream",
               "name": "Tofu Cream with Dips",
-              "description": "Silky tofu-based cream served with assorted dips for a delightful mix of flavors.",
+              "description": "Silky tofu-based cream served with assorted dips for a delightful mix of flavours.",
               "image": null
             },
             {
@@ -140,7 +141,8 @@
             {
               "id": "white_wine",
               "name": "White Wine",
-              "description": null,
+              "description": "Albariño, Verdejo",
+
               "image": null
             },
             {
@@ -198,7 +200,7 @@
               "id": "mango_salad",
               "name": "Mango Salad with Caramelized Goat Cheese",
               "description": "With crispy fried leek.",
-              "caption": "Non Seafood",
+              "caption": "Option 1",
               "image": null
             },
             {
@@ -206,12 +208,14 @@
               "name": "Grilled Octopus",
               "caption": "Seafood",
               "description": "Served on a bed of creamy potato and pistachio.",
+              "caption": "Option 2",
               "image": null
             },
             {
               "id": "vegan_gnocchi",
               "name": "Homemade Gnocchi with Fresh Pesto Sauce",
               "description": "Modifiable upon request.",
+              "caption": "Option 3",
               "image": null
             }
           ]
@@ -340,6 +344,7 @@
               "id": "tiramisu",
               "name": "Tiramisu",
               "description": "A classic Italian dessert with layers of espresso-soaked ladyfingers, mascarpone cream, and a dusting of cocoa.",
+              "caption": "DO NOT TOUCH! TIRAMISU BELONGS TO MATEUSZ",
               "image": null
             },
             {
@@ -401,7 +406,8 @@
             {
               "id": "whisky",
               "name": "Whisky",
-              "description": "Cutty Sark, Ballantine's, and Johnnie Walker Red.",
+              "description": "Cutty Sark, Ballantine's, and Johnnie Walker Red. Station for Radek",
+
               "image": null
             },
             {
