@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.joinourday",
+      "sha256_cert_fingerprints": [
+        "FF:6D:CD:BC:FF:7E:25:EE:6E:DD:2C:C1:24:93:43:8D:F2:55:82:7F:78:AE:93:51:E1:AA:9E:80:70:D6:50:B3"
+      ]
+    }
+  }
+]
